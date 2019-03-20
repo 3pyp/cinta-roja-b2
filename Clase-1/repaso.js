@@ -1,13 +1,13 @@
 var nombre;
 
-nombre = 'cristian'
+nombre = 'Cristian'
 
-nombre = 'felipe'
+nombre = 'Felipe'
 
 
-var string = `1`
+var string = `String`
 var numericos = 1
-var booleanos = false
+var booleanos = true // o false
 
 var arrayList = [
   'string1',
@@ -17,12 +17,13 @@ var arrayList = [
 ]
 
 var objetos = {
-  key: 'valor',
-  nombre: 'nombre'
+  llave: 'valor',
+  nombre: 'Cualquier Nombre'
 }
 
-// console.log(objetos.nombre);clear
+// console.log(objetos.nombre);
 
+// Operadores logicos
 
 // ==
 // === 
@@ -30,13 +31,14 @@ var objetos = {
 // <
 // >=
 // =>
+// !==
 
-var edad = 19
-// if (edad != 18 && edad < 50) {
-//   console.log('mayor de edad')
-// } else {
-//   console.log('no es mayor de edad')
-// }
+var edad = 17
+if (edad >= 18) {
+  console.log('Es mayor de edad')
+} else {
+  console.log('Es menor de edad')
+}
 
 var arreglo = [
   'nombre',
@@ -44,9 +46,8 @@ var arreglo = [
   'medellin'
 ]
 
-  for (index = 0; index < arrayList.length; index++) {
-     console.log(arrayList[index])
+  for (index = 0; index < arreglo.length; index++) {
+     console.log(arreglo[index])
   }
 
-// recorrer()
 

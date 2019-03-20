@@ -1,37 +1,37 @@
-// var ayudanteDeSanta = {
-//   raza: 'Galgo',
-//   color: 'Cafe',
-//   peso: 'Pluma',
-//   patas: '4',
-//   ladrar: function () {
-//     console.log('waw, waw')
-//   },
-//   correr: function () {
-//     console.log('run run')
-//   },
-//   comer: function () {
-//     console.log('ñam ñam')
-//   }
-// }
+var ayudanteDeSanta = {
+  raza: 'Galgo',
+  color: 'Cafe',
+  peso: 'Pluma',
+  patas: '4',
+  ladrar: function () {
+    return 'waw, waw'
+  },
+  correr: function () {
+    return 'run run'
+  },
+  comer: function () {
+    return 'ñam ñam'
+  }
+}
 
 // console.log(ayudanteDeSanta.correr());
 
 
-class Perro{
-  constructor(raza, color, nombre, ...otros){
+class Perro {
+  constructor(raza, color, nombre, patas = 4) {
     this.raza = raza
     this.color = color
     this.nombre = nombre
-    this.otros = otros
+    this.patas = patas
   }
-  ladrar(){
-    console.log('waw, waw');
+  ladrar () {
+    return 'Wau Wau';
   }
-  correr(){
-    console.log('corro, corro');
+  correr () {
+    return 'Corro corro'
   }
 }
 
-var ayudanteDeSanta = new Perro('Galgo', 'Cafe', 'Ayudante de Santa')
+var ayudanteDeSanta = new Perro('Galgo', 'Cafe', 'Ayudante de Santa', 4)
 
-console.log(ayudanteDeSanta)
+console.log(ayudanteDeSanta.ladrar())
