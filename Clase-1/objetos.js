@@ -11,15 +11,24 @@ var ayudanteDeSanta = {
   },
   comer: function () {
     return 'ñam ñam'
+  },
+  saludar: function () {
+    return 'askjdkasd'
   }
 }
 
-// console.log(ayudanteDeSanta.correr());
+// console.log(ayudanteDeSanta)
+ayudanteDeSanta.saludar = function(){
+ return `Hola mi raza es ${this.raza}`
+}
+
+console.log(ayudanteDeSanta.saludar())
+
 
 
 class Perro {
-  constructor(raza, color, nombre, patas = 4) {
-    this.raza = raza
+  constructor( color, nombre, patas = 4) {
+    this.raza = 'laksdasd'
     this.color = color
     this.nombre = nombre
     this.patas = patas
@@ -30,8 +39,12 @@ class Perro {
   correr () {
     return 'Corro corro'
   }
+  getColor () {
+    return this.color
+  }
 }
 
-var ayudanteDeSanta = new Perro('Galgo', 'Cafe', 'Ayudante de Santa', 4)
+// var ayudanteDeSanta = new Perro('Galgo', 'Cafe', 'Ayudante de Santa', 3)
 
-console.log(ayudanteDeSanta.ladrar())
+// console.log(ayudanteDeSanta.getColor())
+
