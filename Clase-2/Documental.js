@@ -1,7 +1,7 @@
-const {Largometraje} = require('./Largometraje')
+const { Largometraje, } = require('./Largometraje')
 
 class Documental extends Largometraje {
-  constructor(titulo, director){
+  constructor(titulo, director) {
     super(titulo)
     this.director = director
   }

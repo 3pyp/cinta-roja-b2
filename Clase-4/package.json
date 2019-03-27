@@ -1,0 +1,16 @@
+{
+  "name": "clase-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "peticiones.js",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node peticiones.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
