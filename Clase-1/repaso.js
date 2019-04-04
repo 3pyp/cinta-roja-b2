@@ -18,7 +18,8 @@ var arrayList = [
 
 var objetos = {
   llave: 'valor',
-  nombre: 'Cualquier Nombre'
+  nombre: 'Cualquier Nombre',
+  metodo: () => {}
 }
 
 // console.log(objetos.nombre);
